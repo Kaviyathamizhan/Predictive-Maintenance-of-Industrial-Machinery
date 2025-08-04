@@ -61,6 +61,13 @@ Pulled from [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-
 🔹 Takes in fresh sensor data  
 🔹 Returns a sweet little JSON telling if maintenance is due
 
+##Result 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/08e4ee31-e0c4-48fd-8a56-a6489988270e" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/35baae53-8607-44de-85fd-5a177722686c" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/03083cb4-b26c-4dac-ae68-0946920e0157" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/36c67659-796f-4d08-87e4-a0a6ff742e43" />
+
+
 ```json
 {
   "machine_id": "L13567",
