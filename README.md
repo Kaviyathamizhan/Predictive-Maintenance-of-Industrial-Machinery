@@ -69,12 +69,8 @@ Prediction: "TWF" (Tool Wear Failure)
 ```
 ## Results:
 
-<img width="1916" height="928" alt="Image" src="https://github.com/user-attachments/assets/72e412fc-1ed7-4bc5-846c-c7d4a8428e9f" />
-
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f1b839c4-c3d9-40a7-a4a2-862b52a3c144" />
-
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/51750a52-2b0d-4e99-9a3d-2334b75d7c4f" />
-
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2c0c950b-f4e7-4f63-a87f-482856ff4581" />
-
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f6bc62f0-16a2-4d74-86c8-3f01e98246c4" />
+<img width="1916" height="928" alt="Image" src="https://github.com/user-attachments/assets/40830204-04e3-4a64-aad8-8e035a8e4533" />
+<img width="1919" height="981" alt="Image" src="https://github.com/user-attachments/assets/9f10f6b5-c7ee-4c0c-84fc-96cd726314c6" />
+<img width="1919" height="986" alt="Image" src="https://github.com/user-attachments/assets/84892697-539e-41ed-93fd-32659620dd03" />
+<img width="1919" height="984" alt="Image" src="https://github.com/user-attachments/assets/8efdcbcb-9cdb-4bd2-bf99-c05cebd62dfc" />
+<img width="1915" height="923" alt="Image" src="https://github.com/user-attachments/assets/2f9ba2c6-507b-4980-b9b1-5485a05545e9" />
