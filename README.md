@@ -41,7 +41,7 @@ Pulled from [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-
 - Product type
 
 **Label:**
-- `Target` → 0 = Working fine, 1 = Something’s about to explode 💥
+- `Target` → 0 = Working fine, 1 = Something’s about to explode
 
 ---
 
