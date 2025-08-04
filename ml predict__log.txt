@@ -1,0 +1,18 @@
+AUTOAI EXPERIMENT LOG FILE
+
+-  Date: 4/8/2025
+-  Submitted time: 11:45:04 pm
+-  End time: 11:49:23 pm
+-  Time elapsed: 4 minutes
+
+-  Experiment name: ml predict
+-  Data source: predictive_maintenance.csv
+-  Experiment asset: 7afb0341-a142-4875-88fb-a4e1423acb5b
+-  Watson Machine Learning training ID: 1e558234-4c2e-45fd-bf79-5306fabc437b
+
+   4/8/2025, 11:45:08 pm   
+INFO   4/8/2025, 11:45:31 pm   Reading training data
+INFO   4/8/2025, 11:46:15 pm   Selecting algorithms for pipeline generation using 10% of training data. Discarding underperforming algorithms and keeping the top 2 algorithms.
+INFO   4/8/2025, 11:46:56 pm   completed feature importance for pipeline p1
+INFO   4/8/2025, 11:48:22 pm   started feature importance for pipeline p3
+INFO   4/8/2025, 11:49:23 pm   AutoAI experiment completed.
