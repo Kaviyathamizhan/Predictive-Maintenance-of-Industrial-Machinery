@@ -1,76 +1,70 @@
-# Predictive-Maintenance-of-Industrial-Machinery
-# Predictive Maintenance AI — Built on IBM Cloud
+# Predictive Maintenance for Industrial Machinery (IBM Cloud + ML)
 
-Welcome to the garage where machines don't just break — they **warn you before they die**.
-
-This project uses **machine learning** and **sensor data** to predict failures in industrial machinery before they turn into costly downtime. Trained it, tested it, deployed it — and yep, it's alive on **IBM Cloud Lite**.
+This project uses machine learning to **predict the specific type of failure** that could occur in an industrial machine — *before* it actually happens. Powered by real-time sensor data and built using IBM Cloud services, this AI solution enables proactive maintenance, reduces downtime, and cuts costs in industrial environments.
 
 ---
 
-##  What It Does
+## Problem Statement
 
-It answers one critical question:
+Industrial machines are prone to different types of failures like:
+- Tool Wear
+- Heat Dissipation Issues
+- Power Failures
+- Overstrain
+- Random Failures
 
-> “Is this machine about to fail?”  
-> (Spoiler: It tells you yes or no, and it’s right about 90% of the time.)
-
----
-
-##  Tech Stack
-
-| Tech | What It Does |
-|------|---------------|
-| **Python** | My weapon of choice |
-| **Scikit-learn** | Trained a Random Forest to sniff out failing machines |
-| **IBM Watson Studio** | Where the magic was built and tested |
-| **IBM Cloud Object Storage** | Stored the dataset |
-| **IBM Watson Machine Learning** | Deployed the trained model |
-| **Jupyter Notebooks** | For getting my hands dirty with data |
+These unexpected breakdowns lead to **unplanned downtime** and high maintenance costs. The goal of this project is to develop an ML model that can **predict the failure type** based on operational sensor data — enabling scheduled maintenance before problems escalate.
 
 ---
 
-##  The Dataset
+## Dataset
 
-Pulled from [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
-
-**Key Features:**
-- Air & process temperature
-- Torque
-- Rotational speed
-- Tool wear
-- Product type
-
-**Label:**
-- `Target` → 0 = Working fine, 1 = Something’s about to explode
+- Source: [Kaggle - Predictive Maintenance Dataset](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
+- Key Features:
+  - `Air temperature`, `Process temperature`
+  - `Rotational speed`, `Torque`
+  - `Tool wear`, `Product type`
+- Failure Types (labels in raw data): `TWF`, `HDF`, `PWF`, `OSF`, `RNF`
+- **Target Column Used**: `failure_type` *(created by combining the 5 binary failure labels)*
 
 ---
 
-##  The ML Part
+## Project Highlights
 
-- **Model**: Random Forest Classifier
-- **Accuracy**: ~91%  
-- **Bonus**: Didn’t overfit like a noob
-- Trained with proper preprocessing, scaling, and split into train/test  
-- Evaluated using confusion matrix, F1-score, etc.
+| Feature | Description |
+|--------|-------------|
+| **ML Type** | Multi-class classification |
+| **Algorithm** | Random Forest Classifier |
+| **Tools Used** | Python, Scikit-learn, IBM Watson Studio |
+| **Deployment** | IBM Watson Machine Learning (REST API) |
+| **Accuracy** | ~91% on test data |
 
 ---
 
-## Deployed On IBM Cloud
+## How We Built It
 
-🔹 Model deployed as a **REST API** using Watson Machine Learning  
-🔹 Takes in fresh sensor data  
-🔹 Returns a sweet little JSON telling if maintenance is due
+1. **Data Preprocessing**
+   - Combined 5 binary failure columns into a single `failure_type` label
+   - Cleaned and normalized sensor data
 
-## Result 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/08e4ee31-e0c4-48fd-8a56-a6489988270e" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/35baae53-8607-44de-85fd-5a177722686c" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/03083cb4-b26c-4dac-ae68-0946920e0157" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/36c67659-796f-4d08-87e4-a0a6ff742e43" />
+2. **Model Training**
+   - Random Forest Classifier trained in IBM Watson Studio
+   - Evaluated using Accuracy, Precision, Recall, F1-Score
 
+3. **Deployment**
+   - Exported model as `.pkl`
+   - Deployed using **IBM Watson Machine Learning**
+   - REST endpoint created for live predictions
 
+4. **Prediction Example**
 ```json
 {
-  "machine_id": "L13567",
-  "prediction": 1,
-  "confidence": 0.93
+  "rotational_speed": 1600,
+  "torque": 45,
+  "air_temp": 300,
+  "tool_wear": 35
 }
+↓
+Prediction: "TWF" (Tool Wear Failure) 
+```
+##Results:
