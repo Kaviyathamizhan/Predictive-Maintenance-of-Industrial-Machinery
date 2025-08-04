@@ -69,7 +69,7 @@ Prediction: "TWF" (Tool Wear Failure)
 ```
 ## Results:
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/db19a20a-04ab-4d2d-9d18-289a6e4e6d08" />
+<img width="1916" height="928" alt="Image" src="https://github.com/user-attachments/assets/72e412fc-1ed7-4bc5-846c-c7d4a8428e9f" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f1b839c4-c3d9-40a7-a4a2-862b52a3c144" />
 
