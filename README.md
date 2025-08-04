@@ -1,5 +1,5 @@
 # Predictive-Maintenance-of-Industrial-Machinery
-# ⚙️ Predictive Maintenance AI — Built on IBM Cloud
+# Predictive Maintenance AI — Built on IBM Cloud
 
 Welcome to the garage where machines don't just break — they **warn you before they die**.
 
@@ -7,7 +7,7 @@ This project uses **machine learning** and **sensor data** to predict failures i
 
 ---
 
-## 🚀 What It Does
+##  What It Does
 
 It answers one critical question:
 
@@ -16,7 +16,7 @@ It answers one critical question:
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Tech | What It Does |
 |------|---------------|
@@ -29,7 +29,7 @@ It answers one critical question:
 
 ---
 
-## 🧠 The Dataset
+##  The Dataset
 
 Pulled from [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 
@@ -45,7 +45,7 @@ Pulled from [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-
 
 ---
 
-## 🧪 The ML Part
+##  The ML Part
 
 - **Model**: Random Forest Classifier
 - **Accuracy**: ~91%  
@@ -55,13 +55,13 @@ Pulled from [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-
 
 ---
 
-## ☁️ Deployed On IBM Cloud
+## Deployed On IBM Cloud
 
 🔹 Model deployed as a **REST API** using Watson Machine Learning  
 🔹 Takes in fresh sensor data  
 🔹 Returns a sweet little JSON telling if maintenance is due
 
-##Result 
+## Result 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/08e4ee31-e0c4-48fd-8a56-a6489988270e" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/35baae53-8607-44de-85fd-5a177722686c" />
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/03083cb4-b26c-4dac-ae68-0946920e0157" />
