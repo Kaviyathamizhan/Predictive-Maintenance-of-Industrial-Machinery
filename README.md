@@ -67,7 +67,8 @@ These unexpected breakdowns lead to **unplanned downtime** and high maintenance 
 ↓
 Prediction: "TWF" (Tool Wear Failure) 
 ```
-##Results:
+## Results:
+
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/db19a20a-04ab-4d2d-9d18-289a6e4e6d08" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f1b839c4-c3d9-40a7-a4a2-862b52a3c144" />
